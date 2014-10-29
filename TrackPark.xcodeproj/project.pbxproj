@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E25E26A19E4DBED00956166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E25E26919E4DBED00956166 /* Foundation.framework */; };
+		3E25E26C19E4DBED00956166 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E25E26B19E4DBED00956166 /* CoreGraphics.framework */; };
+		3E25E26E19E4DBED00956166 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E25E26D19E4DBED00956166 /* UIKit.framework */; };
+		3E25E27419E4DBED00956166 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E25E27219E4DBED00956166 /* InfoPlist.strings */; };
+		3E25E27619E4DBED00956166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E25E27519E4DBED00956166 /* main.m */; };
+		3E25E27A19E4DBED00956166 /* TrackParkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E25E27919E4DBED00956166 /* TrackParkAppDelegate.m */; };
+		3E25E27D19E4DBED00956166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E25E27B19E4DBED00956166 /* Main.storyboard */; };
+		3E25E28019E4DBED00956166 /* TrackParkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E25E27F19E4DBED00956166 /* TrackParkViewController.m */; };
+		3E25E28219E4DBED00956166 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E25E28119E4DBED00956166 /* Images.xcassets */; };
+		3E25E28919E4DBEE00956166 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E25E28819E4DBEE00956166 /* XCTest.framework */; };
+		3E25E28A19E4DBEE00956166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E25E26919E4DBED00956166 /* Foundation.framework */; };
+		3E25E28B19E4DBEE00956166 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E25E26D19E4DBED00956166 /* UIKit.framework */; };
+		3E25E29319E4DBEE00956166 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E25E29119E4DBEE00956166 /* InfoPlist.strings */; };
+		3E25E29519E4DBEE00956166 /* TrackParkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E25E29419E4DBEE00956166 /* TrackParkTests.m */; };
+		3E25E29F19E4E05300956166 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E25E29E19E4E05300956166 /* MessageUI.framework */; };
+		3ECE5E6319E4E84200FA0C20 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECE5E6219E4E84200FA0C20 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E25E28C19E4DBEE00956166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E25E25E19E4DBED00956166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E25E26519E4DBED00956166;
+			remoteInfo = TrackPark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E25E26619E4DBED00956166 /* TrackPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E25E26919E4DBED00956166 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E25E26B19E4DBED00956166 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E25E26D19E4DBED00956166 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E25E27119E4DBED00956166 /* TrackPark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackPark-Info.plist"; sourceTree = "<group>"; };
+		3E25E27319E4DBED00956166 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E25E27519E4DBED00956166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E25E27719E4DBED00956166 /* TrackPark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackPark-Prefix.pch"; sourceTree = "<group>"; };
+		3E25E27819E4DBED00956166 /* TrackParkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackParkAppDelegate.h; sourceTree = "<group>"; };
+		3E25E27919E4DBED00956166 /* TrackParkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackParkAppDelegate.m; sourceTree = "<group>"; };
+		3E25E27C19E4DBED00956166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E25E27E19E4DBED00956166 /* TrackParkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackParkViewController.h; sourceTree = "<group>"; };
+		3E25E27F19E4DBED00956166 /* TrackParkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackParkViewController.m; sourceTree = "<group>"; };
+		3E25E28119E4DBED00956166 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E25E28719E4DBEE00956166 /* TrackParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E25E28819E4DBEE00956166 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3E25E29019E4DBEE00956166 /* TrackParkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackParkTests-Info.plist"; sourceTree = "<group>"; };
+		3E25E29219E4DBEE00956166 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E25E29419E4DBEE00956166 /* TrackParkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackParkTests.m; sourceTree = "<group>"; };
+		3E25E29E19E4E05300956166 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3ECE5E6219E4E84200FA0C20 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E25E26319E4DBED00956166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECE5E6319E4E84200FA0C20 /* CoreLocation.framework in Frameworks */,
+				3E25E29F19E4E05300956166 /* MessageUI.framework in Frameworks */,
+				3E25E26C19E4DBED00956166 /* CoreGraphics.framework in Frameworks */,
+				3E25E26E19E4DBED00956166 /* UIKit.framework in Frameworks */,
+				3E25E26A19E4DBED00956166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E25E28419E4DBEE00956166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E25E28919E4DBEE00956166 /* XCTest.framework in Frameworks */,
+				3E25E28B19E4DBEE00956166 /* UIKit.framework in Frameworks */,
+				3E25E28A19E4DBEE00956166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E25E25D19E4DBED00956166 = {
+			isa = PBXGroup;
+			children = (
+				3E25E26F19E4DBED00956166 /* TrackPark */,
+				3E25E28E19E4DBEE00956166 /* TrackParkTests */,
+				3E25E26819E4DBED00956166 /* Frameworks */,
+				3E25E26719E4DBED00956166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E25E26719E4DBED00956166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E25E26619E4DBED00956166 /* TrackPark.app */,
+				3E25E28719E4DBEE00956166 /* TrackParkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E25E26819E4DBED00956166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ECE5E6219E4E84200FA0C20 /* CoreLocation.framework */,
+				3E25E29E19E4E05300956166 /* MessageUI.framework */,
+				3E25E26919E4DBED00956166 /* Foundation.framework */,
+				3E25E26B19E4DBED00956166 /* CoreGraphics.framework */,
+				3E25E26D19E4DBED00956166 /* UIKit.framework */,
+				3E25E28819E4DBEE00956166 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E25E26F19E4DBED00956166 /* TrackPark */ = {
+			isa = PBXGroup;
+			children = (
+				3E25E27819E4DBED00956166 /* TrackParkAppDelegate.h */,
+				3E25E27919E4DBED00956166 /* TrackParkAppDelegate.m */,
+				3E25E27B19E4DBED00956166 /* Main.storyboard */,
+				3E25E27E19E4DBED00956166 /* TrackParkViewController.h */,
+				3E25E27F19E4DBED00956166 /* TrackParkViewController.m */,
+				3E25E28119E4DBED00956166 /* Images.xcassets */,
+				3E25E27019E4DBED00956166 /* Supporting Files */,
+			);
+			path = TrackPark;
+			sourceTree = "<group>";
+		};
+		3E25E27019E4DBED00956166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E25E27119E4DBED00956166 /* TrackPark-Info.plist */,
+				3E25E27219E4DBED00956166 /* InfoPlist.strings */,
+				3E25E27519E4DBED00956166 /* main.m */,
+				3E25E27719E4DBED00956166 /* TrackPark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E25E28E19E4DBEE00956166 /* TrackParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E25E29419E4DBEE00956166 /* TrackParkTests.m */,
+				3E25E28F19E4DBEE00956166 /* Supporting Files */,
+			);
+			path = TrackParkTests;
+			sourceTree = "<group>";
+		};
+		3E25E28F19E4DBEE00956166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E25E29019E4DBEE00956166 /* TrackParkTests-Info.plist */,
+				3E25E29119E4DBEE00956166 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E25E26519E4DBED00956166 /* TrackPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E25E29819E4DBEE00956166 /* Build configuration list for PBXNativeTarget "TrackPark" */;
+			buildPhases = (
+				3E25E26219E4DBED00956166 /* Sources */,
+				3E25E26319E4DBED00956166 /* Frameworks */,
+				3E25E26419E4DBED00956166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackPark;
+			productName = TrackPark;
+			productReference = 3E25E26619E4DBED00956166 /* TrackPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E25E28619E4DBEE00956166 /* TrackParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E25E29B19E4DBEE00956166 /* Build configuration list for PBXNativeTarget "TrackParkTests" */;
+			buildPhases = (
+				3E25E28319E4DBEE00956166 /* Sources */,
+				3E25E28419E4DBEE00956166 /* Frameworks */,
+				3E25E28519E4DBEE00956166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E25E28D19E4DBEE00956166 /* PBXTargetDependency */,
+			);
+			name = TrackParkTests;
+			productName = TrackParkTests;
+			productReference = 3E25E28719E4DBEE00956166 /* TrackParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E25E25E19E4DBED00956166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TrackPark;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = edu.pitt;
+				TargetAttributes = {
+					3E25E26519E4DBED00956166 = {
+						DevelopmentTeam = 855G99L85X;
+					};
+					3E25E28619E4DBEE00956166 = {
+						TestTargetID = 3E25E26519E4DBED00956166;
+					};
+				};
+			};
+			buildConfigurationList = 3E25E26119E4DBED00956166 /* Build configuration list for PBXProject "TrackPark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E25E25D19E4DBED00956166;
+			productRefGroup = 3E25E26719E4DBED00956166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E25E26519E4DBED00956166 /* TrackPark */,
+				3E25E28619E4DBEE00956166 /* TrackParkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E25E26419E4DBED00956166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E25E28219E4DBED00956166 /* Images.xcassets in Resources */,
+				3E25E27419E4DBED00956166 /* InfoPlist.strings in Resources */,
+				3E25E27D19E4DBED00956166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E25E28519E4DBEE00956166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E25E29319E4DBEE00956166 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E25E26219E4DBED00956166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E25E28019E4DBED00956166 /* TrackParkViewController.m in Sources */,
+				3E25E27A19E4DBED00956166 /* TrackParkAppDelegate.m in Sources */,
+				3E25E27619E4DBED00956166 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E25E28319E4DBEE00956166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E25E29519E4DBEE00956166 /* TrackParkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E25E28D19E4DBEE00956166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E25E26519E4DBED00956166 /* TrackPark */;
+			targetProxy = 3E25E28C19E4DBEE00956166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E25E27219E4DBED00956166 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E25E27319E4DBED00956166 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E25E27B19E4DBED00956166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E25E27C19E4DBED00956166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E25E29119E4DBEE00956166 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E25E29219E4DBEE00956166 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E25E29619E4DBEE00956166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Konstantinos Pelechrinis (QQ3GF82468)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Konstantinos Pelechrinis (QQ3GF82468)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "671e0028-1c1d-42a1-b597-a0e196f8b11a";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E25E29719E4DBEE00956166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Konstantinos Pelechrinis (QQ3GF82468)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Konstantinos Pelechrinis (QQ3GF82468)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "671e0028-1c1d-42a1-b597-a0e196f8b11a";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E25E29919E4DBEE00956166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackPark/TrackPark-Prefix.pch";
+				INFOPLIST_FILE = "TrackPark/TrackPark-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E25E29A19E4DBEE00956166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackPark/TrackPark-Prefix.pch";
+				INFOPLIST_FILE = "TrackPark/TrackPark-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E25E29C19E4DBEE00956166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackPark.app/TrackPark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackPark/TrackPark-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrackParkTests/TrackParkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3E25E29D19E4DBEE00956166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackPark.app/TrackPark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackPark/TrackPark-Prefix.pch";
+				INFOPLIST_FILE = "TrackParkTests/TrackParkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E25E26119E4DBED00956166 /* Build configuration list for PBXProject "TrackPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E25E29619E4DBEE00956166 /* Debug */,
+				3E25E29719E4DBEE00956166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E25E29819E4DBEE00956166 /* Build configuration list for PBXNativeTarget "TrackPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E25E29919E4DBEE00956166 /* Debug */,
+				3E25E29A19E4DBEE00956166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E25E29B19E4DBEE00956166 /* Build configuration list for PBXNativeTarget "TrackParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E25E29C19E4DBEE00956166 /* Debug */,
+				3E25E29D19E4DBEE00956166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E25E25E19E4DBED00956166 /* Project object */;
+}
