@@ -55,7 +55,7 @@
         messageBody = [messageBody stringByAppendingString:fullTraj];
         //NSString *messageBody = @"Type of Parking (on/off): \n Final destination: ";
         // To address
-        NSArray *toRecipents = [NSArray arrayWithObject:@"kpele@pitt.edu"];
+        NSArray *toRecipents = [NSArray arrayWithObject:@"ParkingCruise@gmail.com"];
         
         MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
         mc.mailComposeDelegate = self;
@@ -180,7 +180,7 @@
 
 - (IBAction)aboutUS:(id)sender {
     UIAlertView *aboutUSalert = [[UIAlertView alloc]
-                                    initWithTitle:@"About us" message:@"This app is part of a collaborative research project between University of Pittsburgh and Carnegie Mellon University.  For more information e-mail us at kpele@pitt.edu." delegate:nil cancelButtonTitle:@"Done" otherButtonTitles:nil];
+                                    initWithTitle:@"About us" message:@"This app is part of a collaborative research project between University of Pittsburgh and Carnegie Mellon University.  For more information e-mail us at ParkingCruise@gmail.com." delegate:nil cancelButtonTitle:@"Done" otherButtonTitles:nil];
     
     // Display the Hello World Message
     [aboutUSalert show];
