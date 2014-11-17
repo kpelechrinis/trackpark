@@ -42,7 +42,7 @@
         // Email Subject
         NSString *emailTitle = @"Park Data Report";
         // Email Content
-        NSString *messageBody=@"Type of Parking (on/off): \n Final destination: \n===========\n Information for cruising start point \n===========\n Latitude: ";
+        NSString *messageBody=@"Type of Parking (on/off/garage): \n Final destination: \n===========\n Information for cruising start point \n===========\n Latitude: ";
         messageBody = [messageBody stringByAppendingString:_parkLat.text];
         messageBody = [messageBody stringByAppendingString:@"\n Longtitude: "];
         messageBody = [messageBody stringByAppendingString:_parkLon.text];
